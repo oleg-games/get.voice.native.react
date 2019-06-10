@@ -1,5 +1,5 @@
 import React from 'react';
-import AsyncStorage from '@react-native-community/async-storage';
+// import AsyncStorage from '@react-native-community/async-storage';
 import {
     ActivityIndicator,
     StatusBar,
@@ -16,8 +16,8 @@ export default class AuthLoadingScreen extends React.Component {
     // Fetch the token from storage then navigate to our appropriate place
     _bootstrapAsync = async () => {
         console.log('authLoadingScreen')
-        const token = await AsyncStorage.getItem(StorageConst.TOKEN);
-        console.log('token', token)
+        // const token = await AsyncStorage.getItem(StorageConst.TOKEN);
+        // console.log('token', token)
 
         // This will switch to the App screen or Auth screen and this loading
         // screen will be unmounted and thrown away.
