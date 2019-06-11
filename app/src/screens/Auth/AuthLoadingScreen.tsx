@@ -1,5 +1,4 @@
 import React from 'react';
-// import AsyncStorage from '@react-native-community/async-storage';
 import AsyncStorage from '@react-native-community/async-storage';
 
 import {
@@ -23,8 +22,8 @@ export default class AuthLoadingScreen extends React.Component {
 
         // This will switch to the App screen or Auth screen and this loading
         // screen will be unmounted and thrown away.
-        // const gVprops: any = this.props; 
-        // gVprops.navigation.navigate(token ? 'App' : 'Auth');
+        const gVprops: any = this.props; 
+        gVprops.navigation.navigate(token ? 'App' : 'Auth');
     };
 
     // Render any loading content that you like here
