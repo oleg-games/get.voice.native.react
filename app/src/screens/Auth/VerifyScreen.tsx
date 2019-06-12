@@ -7,7 +7,6 @@ import {
   View,
   Platform,
   Alert,
-  AsyncStorage,
 } from 'react-native';
 
 import {
@@ -19,6 +18,7 @@ import {
   Button,
 } from 'native-base';
 import { PRIMARY_STANDART_MARGIN } from '../../styles/common';
+import AsyncStorage from '@react-native-community/async-storage';
 
 import Form from 'react-native-form';
 import StorageConst from '../../constants/Storage';

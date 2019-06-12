@@ -1,11 +1,8 @@
 import { createDrawerNavigator } from 'react-navigation';
 import QuestionsBottomTabNavigator from './Questions/QuestionsBottomTabNavigator'
 import AnswersBottomTabNavigator from './Answers/AnswersBottomTabNavigator'
-import ImageBrowser from './ImageBrowser'
-import ImagePicker from './ImagePicker'
-// import ListOfItems from '@components/ListOfItems'
-// import ListOfNextItems from '@components/ListOfNextItems'
-// import MainImage from '../components/MainImage'
+// import ImageBrowser from './ImageBrowser'
+// import ImagePicker from './ImagePicker'
 
 export default createDrawerNavigator({
     Questions: {
@@ -22,21 +19,12 @@ export default createDrawerNavigator({
             title: `Answers`,
         }),
     },
-    Images: {
-        screen: ImageBrowser,
-    },
-    ImagePicker: {
-        screen: ImagePicker,
-    },
-    // ListOfItems: {
-    //     screen: ListOfItems,
+    // Images: {
+    //     screen: ImageBrowser,
     // },
-    // ListOfNextItems: {
-    //     screen: ListOfNextItems,
+    // ImagePicker: {
+    //     screen: ImagePicker,
     // },
-    // MainImage: {
-    //     screen: MainImage,
-    // }
 },{
-    // initialRouteName: 'Answers',
+    initialRouteName: 'Answers',
 });

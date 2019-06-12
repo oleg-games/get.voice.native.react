@@ -1,5 +1,5 @@
 // import { createStackNavigator } from 'react-navigation';
-import DrawerNavigator from '@navigation/DrawerNavigator'
+import DrawerNavigator from '../components/navigation/DrawerNavigator'
 
 // import { Drawer } from '../src/navigators'
 
